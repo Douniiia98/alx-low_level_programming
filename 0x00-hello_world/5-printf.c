@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the following string "with proper grammar, but the outcome is a piece of art,"
- * 
+ * main - prints the following string "with proper grammar, but the ... "
+ *
  * Return: zero if working correctly
  */
 int main(void)
