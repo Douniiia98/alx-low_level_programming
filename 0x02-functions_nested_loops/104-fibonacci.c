@@ -22,7 +22,6 @@ int main(void)
 		{
 			Fn_l = F1_l + F2_l;
 			Fn_r = F1_r + F2_r;
-
 			if (((Fn_r) / (1000000)) > 0)
 			{
 				Fn_l++;
@@ -41,14 +40,10 @@ int main(void)
 		{
 			printf("%lu%lu", Fn_l, Fn_r);
 		}
-		if ( i != 97)
-		{
+		if (i != 97)
 			printf(", ");
-		}
 		else
-		{
 			printf("\n");
-		}
 	}
 	return (0);
 }
