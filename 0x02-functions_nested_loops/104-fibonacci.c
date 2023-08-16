@@ -22,7 +22,7 @@ int main(void)
 		{
 			Fn_l = F1_l + F2_l;
 			Fn_r = F1_r + F2_r;
-			if (((Fn_r) / (1000000)) > 0)
+			if (((Fn_r) / (10000000)) > 0)
 			{
 				Fn_l++;
 				Fn_r = Fn_r % (1000000);
