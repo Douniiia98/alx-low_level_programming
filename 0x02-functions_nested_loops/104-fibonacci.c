@@ -25,7 +25,7 @@ int main(void)
 			if (((Fn_r) / (10000000)) > 0)
 			{
 				Fn_l++;
-				Fn_r = Fn_r % (1000000);
+				Fn_r = Fn_r % (10000000);
 			}
 			F1_l = F2_l;
 			F1_r = F2_r;
