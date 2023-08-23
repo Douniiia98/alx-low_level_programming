@@ -15,7 +15,7 @@ int main(void)
 	while (s <= 2645)
 	{
 		car = rand() % 128;
-		putcarar(car);
+		putcar(car);
 		s += car;
 	}
 	putcarar(2772 - s);
