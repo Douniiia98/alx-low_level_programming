@@ -18,6 +18,6 @@ int main(void)
 		putchar(car);
 		s += car;
 	}
-	putcarar(2772 - s);
+	putchar(2772 - s);
 	return (0);
 }
