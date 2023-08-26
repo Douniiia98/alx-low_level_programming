@@ -12,7 +12,7 @@ char *rot13(char *s)
 	int i = 0, j;
 
 	char xrot[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char xrot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char yrot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 
 	while (s[i] != '\0')
@@ -21,7 +21,7 @@ char *rot13(char *s)
 		{
 			if (s[i] == xrot[j])
 			{
-				s[i] = xrot[j];
+				s[i] = yrot[j];
 				break;
 			}
 		}
