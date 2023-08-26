@@ -5,8 +5,8 @@
  * print_a_line - prints content of buffer
  * @b: pointer to buffer string
  * @size: size of buffer string
- * 
- * 
+ *
+ *
  * @line: lines of buffer to be printed
  */
 
@@ -15,8 +15,8 @@ void print_a_line(char *b, int line, int size);
 /**
  * print_buffer - prints a buffer
  * @b: buffer to print
- * 
- * 
+ *
+ *
  * @size: size of buffer
  */
 
@@ -48,8 +48,8 @@ void print_buffer(char *b, int size)
  * @b: buffer to print
  * @size: size of buffer
  * @line: line of buffer to print
- * 
- * 
+ *
+ *
  */
 
 void print_a_line(char *b, int line, int size)
